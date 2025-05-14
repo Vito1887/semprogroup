@@ -1,0 +1,164 @@
+:root {
+  --FONT_DEFAULT: ProximaNova;
+
+  --WEIGHT_NORMAL: 500;
+  --WEIGHT_600: 600;
+
+  --TRANSITION_03: 0.3s;
+  --TRANSITION_05: 0.5s;
+  --TRANSITION_1: 1s;
+
+  --OPACITY_03: 0.3;
+  --OPACITY_05: 0.5;
+  --OPACITY_09: 0.9;
+  --OPACITY_1: 1;
+
+  --FONT_SIZE_10: 10px;
+  --FONT_SIZE_SUB_TEXT: 12px;
+  --FONT_SIZE_TEXT: 14px;
+  --FONT_SIZE_SUB_TITLE: 16px;
+  --FONT_SIZE_18: 18px;
+  --FONT_SIZE_TITLE: 20px;
+  --FONT_SIZE_24: 24px;
+  --FONT_SIZE_28: 28px;
+  --FONT_SIZE_34: 34px;
+  --FONT_SIZE_38: 38px;
+  --FONT_SIZE_48: 48px;
+
+  --LINE_HEIGHT_14: 14px;
+  --LINE_HEIGHT_16: 16px;
+  --LINE_HEIGHT_18: 18px;
+  --LINE_HEIGHT_20: 20px;
+  --LINE_HEIGHT_22: 22px;
+  --LINE_HEIGHT_24: 24px;
+  --LINE_HEIGHT_30: 30px;
+  --LINE_HEIGHT_34: 34px;
+
+  /* Surface */
+  --COLOR_FOREGROUND: rgba(255, 255, 255, 1); /* #FFFFFF */
+  --COLOR_BLURRED_FOREGROUND: rgba(255, 255, 255, 0.3); /* #FFFFFF */
+  --COLOR_APP_BACKGROUND: rgba(252, 252, 253, 1); /* #FCFCFD */
+  --COLOR_SECONDARY_BG: rgba(238, 241, 250, 1); /* #EEF1FA */
+  --COLOR_SECONDARY_BACKGROUND: rgba(243, 245, 251, 1); /* #F3F5FB */
+  --COLOR_SUCCESS_BACKGROUND: rgba(237, 249, 241, 1); /* #EDF9F1 */
+  --COLOR_ERROR_BACKGROUND: rgba(255, 238, 235, 1); /* #FFEEEB */
+  --COLOR_POP_UP_BACKGROUND: rgba(38, 26, 89, 0.9); /* #261A59 */
+  --COLOR_INKY_BACKGROUND: rgba(0, 0, 0, 1);
+  --COLOR_POSITIVE_SURFACE: rgba(237, 249, 241); /* #EDF9F1 */
+
+  /* Text & Icons */
+  --COLOR_PRIMARY: rgba(38, 26, 89, 1); /* #261A59 */
+  --COLOR_SUBTEXT: rgba(142, 142, 173, 1); /* #8E8EAD */
+  --COLOR_ARTICLES: rgba(64, 64, 64, 1); /* #404040 */
+  --COLOR_POSITIVE_INFO: rgba(75, 153, 99, 1); /* #4B9963 */
+  --COLOR_NEGATIVE_INFO: rgba(239, 121, 96, 1); /* #EF7960 */
+  --COLOR_NEGATIVE_DEFAULT: rgba(253, 135, 110, 1); /* #FD876E */
+  --COLOR_POSITIVE_DEFAULT: rgba(86, 173, 113, 1); /* #56AD71 */
+
+  /* Buttons & Accent Colors */
+  --COLOR_POSITIVE: rgba(86, 173, 113, 1); /* #56AD71 */
+  --COLOR_POSITIVE_PRESSED: rgba(91, 188, 121, 1); /* #5BBC79 */
+  --COLOR_NEGATIVE: rgba(253, 135, 110, 1); /* #FD876E */
+  --COLOR_NEUTRAL: rgba(254, 228, 156, 1); /* #FEE49C */
+  --COLOR_LINKS: rgba(90, 95, 227, 1); /* #5A5FE3 */
+  --COLOR_GIF_RESTORE_PURCHASE: rgba(236, 236, 246, 1); /* #ECECF6 */
+  --COLOR_BUBBLES_SYSTEM: rgba(10, 132, 255, 1); /* #0A84FF */
+  --COLOR_SEND: rgba(47, 128, 237, 1); /* 2F80ED */
+
+  /* Strokes */
+  --COLOR_STROKE_GENERAL: rgba(214, 220, 229, 1); /* #D6DCE5 */
+  --COLOR_STROKE_ACTIVE: rgba(176, 176, 215, 1); /* B0B0D7 */
+  --COLOR_STROKE_LIGHT: rgba(237, 237, 237, 1); /* #EDEDED */
+
+  /* Social */
+  --COLOR_IMESSAGE: rgba(46, 202, 70, 1); /* #2ECA46 */
+
+  /* Shadows */
+  --COLOR_SHADOW_GENERAL: rgba(179, 179, 199, 0.2); /* #B3B3C7 */
+  --COLOR_SHADOW_POSITIVE: rgba(109, 190, 134, 0.5); /* #6DBE8680 */
+  --COLOR_SHADOW_DARK: rgba(52, 52, 98, 0.16); /* #343462 */
+
+  /* --------------------------- */
+
+  --SIZE_BORDER: 1px;
+  --SIZE_BORDER_THICK: 2px;
+  --SIZE_TOP_LINE: 4px;
+  --CONTENT_MAX_WIDTH: 335px;
+  --PAGE_MAX_WIDTH: 435px;
+
+  --SIZE_8: 8px;
+  --SIZE_10: 10px;
+  --SIZE_12: 12px;
+  --SIZE_14: 14px;
+  --SIZE_16: 16px;
+  --SIZE_20: 20px;
+  --SIZE_26: 26px;
+  --SIZE_30: 30px;
+  --SIZE_32: 32px;
+  --SIZE_40: 40px;
+  --SIZE_50: 50px;
+  --SIZE_60: 60px;
+  --SIZE_62: 62px;
+  --SIZE_68: 68px;
+  --SIZE_76: 76px;
+  --SIZE_96: 96px;
+  --SIZE_100: 100px;
+  --SIZE_168: 168px;
+  --SIZE_190: 190px;
+  --SIZE_200: 200px;
+  --SIZE_230: 230px;
+  --SIZE_260: 260px;
+  --SIZE_280: 280px;
+  --SIZE_290: 290px;
+  --SIZE_296: 296px;
+  --SIZE_400: 400px;
+
+  --RADIUS_5: 5px;
+  --RADIUS_6: 6px;
+  --RADIUS_10: 10px;
+  --RADIUS_12: 12px;
+  --RADIUS_16: 16px;
+  --RADIUS_20: 20px;
+  --RADIUS_24: 24px;
+  --RADIUS_28: 28px;
+  --RADIUS_40: 40px;
+
+  --GAP_4: 4px;
+  --GAP_10: 10px;
+  --GAP_20: 20px;
+  --GAP_30: 30px;
+  --GAP_40: 40px;
+  --GAP_80: 80px;
+
+  --MARGIN_4: 4px;
+  --MARGIN_6: 6px;
+  --MARGIN_8: 8px;
+  --MARGIN_10: 10px;
+  --MARGIN_12: 12px;
+  --MARGIN_14: 14px;
+  --MARGIN_16: 16px;
+  --MARGIN_20: 20px;
+  --MARGIN_30: 30px;
+  --MARGIN_40: 40px;
+  --MARGIN_60: 60px;
+  --MARGIN_50: 50px;
+  --MARGIN_72: 72px;
+  --MARGIN_76: 76px;
+
+  --PADDING_2: 2px;
+  --PADDING_4: 4px;
+  --PADDING_6: 6px;
+  --PADDING_8: 8px;
+  --PADDING_10: 10px;
+  --PADDING_12: 12px;
+  --PADDING_14: 14px;
+  --PADDING_16: 16px;
+  --PADDING_20: 20px;
+  --PADDING_24: 24px;
+  --PADDING_26: 26px;
+  --PADDING_30: 30px;
+  --PADDING_32: 32px;
+  --PADDING_40: 40px;
+  --PADDING_46: 46px;
+  --PADDING_60: 60px;
+}
