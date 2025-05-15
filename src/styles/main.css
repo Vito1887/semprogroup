@@ -365,10 +365,6 @@
 }
 
 /* Первый экран */
-.scroll-content {
-  margin-right: var(--PADDING_40);
-}
-
 .hero {
   width: 100%;
   position: relative;
@@ -838,4 +834,12 @@
   .hero__content {
     max-width: 600px;
   }
+}
+
+.hero,
+.about,
+.last__screen {
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
