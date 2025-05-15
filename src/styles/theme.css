@@ -24,6 +24,7 @@
   --FONT_SIZE_34: 34px;
   --FONT_SIZE_38: 38px;
   --FONT_SIZE_48: 48px;
+  --FONT_SIZE_72: 72px;
 
   --LINE_HEIGHT_14: 14px;
   --LINE_HEIGHT_16: 16px;
@@ -113,6 +114,7 @@
   --SIZE_296: 296px;
   --SIZE_400: 400px;
 
+  --RADIUS_2: 2px;
   --RADIUS_5: 5px;
   --RADIUS_6: 6px;
   --RADIUS_10: 10px;

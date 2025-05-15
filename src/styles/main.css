@@ -94,7 +94,8 @@
 }
 
 .apartment-select select {
-  padding: var(--PADDING_10) var(--PADDING_40) var(--PADDING_10) var(--PADDING_20);
+  padding: var(--PADDING_10) var(--PADDING_40) var(--PADDING_10)
+    var(--PADDING_20);
   border-radius: var(--RADIUS_40);
   border: none;
   transition: var(--transition);
@@ -364,9 +365,14 @@
 }
 
 /* Первый экран */
+.scroll-content {
+  margin-right: var(--PADDING_40);
+}
+
 .hero {
-  position: relative;
   width: 100%;
+  position: relative;
+  padding: 0 var(--PADDING_40);
   overflow: hidden;
 }
 
@@ -386,7 +392,7 @@
 }
 
 .hero__title {
-  font-size: 72px;
+  font-size: var(--FONT_SIZE_72);
   font-weight: 700;
   margin-bottom: var(--MARGIN_20);
   line-height: 1.1;
@@ -465,16 +471,16 @@
   top: 0;
   left: 0;
   background: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.7) 0%,
-      rgba(0, 0, 0, 0.3) 100%
+    to right,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.3) 100%
   );
 }
 
 /* Второй экран */
 .about {
   padding: 100px 0;
-  background-color: var(--secondary-color);
+  background-color: var(--COLOR_FOREGROUND);
 }
 
 .about__container {
@@ -484,8 +490,8 @@
 }
 
 .about__content {
-  max-width: 800px;
   margin: 0 auto;
+  padding: 0 var(--PADDING_20);
 }
 
 .about__title {
@@ -514,9 +520,20 @@
   justify-content: space-between;
 }
 
+.last__screen-line {
+  width: 63px; /* pixel perfect */
+  height: var(--SIZE_12);
+  border-radius: var(--RADIUS_2);
+  background-color: var(--COLOR_SEND);
+}
+
 .last__screen-title {
   font-size: var(--FONT_SIZE_34);
   text-transform: uppercase;
+}
+
+.last__screen-link {
+  color: var(--COLOR_SEND);
 }
 
 .last__screen-subtitle {
@@ -529,13 +546,39 @@
   max-height: 900px;
 }
 
+.last__screen-video-block {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.last__screen-video-title {
+  font-size: var(--FONT_SIZE_18);
+  font-weight: var(--WEIGHT_600);
+  text-transform: uppercase;
+}
+
+.last__screen-video-subtitle {
+  font-size: var(--FONT_SIZE_18);
+  color: var(--COLOR_SUBTEXT);
+}
+
+.last__screen-video-line {
+  width: 100%;
+  min-width: var(--SIZE_8);
+  height: var(--SIZE_BORDER);
+  margin: 0 var(--MARGIN_10);
+  background-color: var(--COLOR_STROKE_GENERAL);
+}
+
 .about__video {
   min-width: 131px;
   max-width: 241px;
   min-height: 131px;
   max-height: 241px;
   position: relative;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
   border-radius: 1000px;
 }
 

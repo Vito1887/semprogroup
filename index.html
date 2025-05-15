@@ -1,198 +1,259 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-  <meta charset="UTF-8">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>INCHAPIN</title>
 
-  <title>INCHAPIN</title>
+    <link rel="stylesheet" href="src/styles/global.css" />
 
-  <link rel="stylesheet" href="src/styles/global.css">
+    <link rel="stylesheet" href="src/styles/theme.css" />
 
-  <link rel="stylesheet" href="src/styles/theme.css">
+    <link rel="stylesheet" href="src/styles/main.css" />
+  </head>
 
-  <link rel="stylesheet" href="src/styles/main.css">
-</head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__left">
+          <button class="burger-menu" aria-label="Открыть меню">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
 
-<body>
+          <span class="header__menu-label">Меню</span>
 
-<header class="header">
-  <div class="header__container">
-    <div class="header__left">
-      <button class="burger-menu" aria-label="Открыть меню">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
-      <span class="header__menu-label">Меню</span>
-
-      <div class="apartment-select">
-        <label>
-          <select>
-            <option value="">Выбрать квартиру</option>
-            <option value="1">1-комнатная</option>
-            <option value="2">2-комнатная</option>
-            <option value="3">3-комнатная</option>
-          </select>
-        </label>
-      </div>
-    </div>
-
-    <div class="header__center">
-      <img src="src/assets/images/logo.png" alt="logo">
-    </div>
-
-    <div class="header__right">
-      <span class="header__phone">+7 495 527 21 21</span>
-
-      <button class="call-button">Заказать звонок</button>
-    </div>
-  </div>
-</header>
-
-<div class="scroll-content" id="scroll-content">
-  <section class="hero">
-    <div class="hero__container">
-      <div class="hero__content">
-        <h1 class="hero__title">INCHAPIN</h1>
-
-        <p class="hero__subtitle">Жилой комплекс премиум-класса</p>
-
-        <div class="hero__features">
-          <div class="hero__feature">
-            <span class="hero__feature-number">24</span>
-            <span class="hero__feature-text">этажа</span>
-          </div>
-
-          <div class="hero__feature">
-            <span class="hero__feature-number">156</span>
-            <span class="hero__feature-text">квартир</span>
-          </div>
-
-          <div class="hero__feature">
-            <span class="hero__feature-number">3</span>
-            <span class="hero__feature-text">подъезда</span>
+          <div class="apartment-select">
+            <label>
+              <select>
+                <option value="">Выбрать квартиру</option>
+                <option value="1">1-комнатная</option>
+                <option value="2">2-комнатная</option>
+                <option value="3">3-комнатная</option>
+              </select>
+            </label>
           </div>
         </div>
 
-        <a href="#about" class="hero__scroll-down">
-          <span>Узнать больше</span>
+        <div class="header__center">
+          <img src="src/assets/images/logo.png" alt="logo" />
+        </div>
 
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round"/>
-          </svg>
-        </a>
+        <div class="header__right">
+          <span class="header__phone">+7 495 527 21 21</span>
+
+          <button class="call-button">Заказать звонок</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="scroll-content" id="scroll-content">
+      <div class="hero">
+        <div class="hero__container">
+          <div class="hero__content">
+            <h1 class="hero__title">INCHAPIN</h1>
+
+            <p class="hero__subtitle">Жилой комплекс премиум-класса</p>
+
+            <div class="hero__features">
+              <div class="hero__feature">
+                <span class="hero__feature-number">24</span>
+                <span class="hero__feature-text">этажа</span>
+              </div>
+
+              <div class="hero__feature">
+                <span class="hero__feature-number">156</span>
+                <span class="hero__feature-text">квартир</span>
+              </div>
+
+              <div class="hero__feature">
+                <span class="hero__feature-number">3</span>
+                <span class="hero__feature-text">подъезда</span>
+              </div>
+            </div>
+
+            <a href="#about" class="hero__scroll-down">
+              <span>Узнать больше</span>
+
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M12 5V19M12 19L5 12M12 19L19 12"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero__background">
+            <img
+              src="src/assets/images/mainScreen.png"
+              alt="INCHAPIN"
+              class="hero__image"
+            />
+          </div>
+        </div>
       </div>
 
-      <div class="hero__background">
-        <img src="src/assets/images/mainScreen.png" alt="INCHAPIN" class="hero__image">
-      </div>
-    </div>
-  </section>
+      <div class="about" id="about">
+        <div class="about__container">
+          <div class="about__content">
+            <h2 class="about__title">О проекте</h2>
 
-  <section class="about" id="about">
-    <div class="about__container">
-      <div class="about__content">
-        <h2 class="about__title">О проекте</h2>
-
-        <p class="about__text">INCHAPIN - это современный жилой комплекс премиум-класса, расположенный в самом
-          сердце города. Мы предлагаем комфортное жилье с продуманной инфраструктурой и высоким уровнем
-          безопасности.
-        </p>
-
-        <div class="last__screen-main-content">
-          <img src="src/assets/images/lastScreen.png" alt="INCHAPIN" class="last__screen">
-
-          <div class="last__screen-main-right-content">
-            <p class="last__screen-title">Уютное и безопасное<br/>
-              пространство для счастливой,<br/>
-              спокойной и размеренной<br/>
-              жизни
+            <p class="about__text">
+              INCHAPIN - это современный жилой комплекс премиум-класса,
+              расположенный в самом сердце города. Мы предлагаем комфортное
+              жилье с продуманной инфраструктурой и высоким уровнем
+              безопасности.
             </p>
 
-            <p class="last__screen-subtitle">
-              Квартиры от 65 до 356 м2 с чистовой отделкой, балконами, лоджиями и террасами В собственной закрытой
-              охраняемой территории.
-            </p>
+            <div class="last__screen-main-content">
+              <img
+                src="src/assets/images/lastScreen.png"
+                alt="INCHAPIN"
+                class="last__screen"
+              />
 
-            <div class="about__video">
-              <div class="about__video-preview">
-                <div class="about__video-preview-content">
-                  <img src="src/assets/images/previewVideo.png" alt="Видео о проекте">
+              <div class="last__screen-main-right-content">
+                <div class="last__screen-line"></div>
+
+                <p class="last__screen-title">
+                  Уютное и безопасное<br />
+                  пространство для счастливой,<br />
+                  <a class="last__screen-title last__screen-link"
+                    >спокойной и размеренной<br />
+                    жизни</a
+                  >
+                </p>
+
+                <p class="last__screen-subtitle">
+                  <a class="last__screen-subtitle last__screen-link"
+                    >Квартиры от 65 до 356 м2 с чистовой отделкой,</a
+                  ><br />
+                  балконами, лоджиями и террасами В собственной<br />закрытой
+                  охраняемой территории.
+                </p>
+
+                <div class="last__screen-video-block">
+                  <div>
+                    <p class="last__screen-video-title">Видео о проекте</p>
+
+                    <p class="last__screen-video-subtitle">1:25 минут</p>
+                  </div>
+
+                  <div class="last__screen-video-line"></div>
+
+                  <div class="about__video">
+                    <div class="about__video-preview">
+                      <div class="about__video-preview-content">
+                        <img
+                          src="src/assets/images/previewVideo.png"
+                          alt="Видео о проекте"
+                        />
+                      </div>
+
+                      <button class="about__video-play">
+                        <svg
+                          width="44"
+                          height="44"
+                          viewBox="0 0 48 48"
+                          fill="none"
+                        >
+                          <path d="M32 24L20 32V16L32 24Z" fill="white" />
+                        </svg>
+
+                        <p class="about__video-play-text">Play</p>
+                      </button>
+                    </div>
+                  </div>
                 </div>
-
-                <button class="about__video-play">
-                  <svg width="44" height="44" viewBox="0 0 48 48" fill="none">
-                    <path d="M32 24L20 32V16L32 24Z" fill="white"/>
-                  </svg>
-
-                  <p class="about__video-play-text">Play</p>
-                </button>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </div>
-  </section>
-</div>
 
-<div class="modal">
-  <div class="modal__overlay"></div>
+    <div class="modal">
+      <div class="modal__overlay"></div>
 
-  <div class="modal__content">
-    <button class="modal__close">&times;</button>
+      <div class="modal__content">
+        <button class="modal__close">&times;</button>
 
-    <div class="form">
-      <p class="form__title">Заказать звонок</p>
+        <div class="form">
+          <p class="form__title">Заказать звонок</p>
 
+          <div class="form__group">
+            <div class="form__block">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder=" "
+                autocomplete="off"
+              />
 
-      <div class="form__group">
-        <div class="form__block">
-          <input type="text" id="name" name="name" required placeholder=" " autocomplete="off"/>
+              <label for="name">Ваше имя</label>
+            </div>
+          </div>
 
-          <label for="name">Ваше имя</label>
+          <div class="form__group form__group--phone">
+            <div class="form__block">
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+                placeholder=" "
+                autocomplete="off"
+              />
+
+              <label for="phone">Телефон</label>
+            </div>
+          </div>
+
+          <div class="form__group">
+            <div class="form__block">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder=" "
+                autocomplete="off"
+              />
+
+              <label for="email">E-mail</label>
+            </div>
+          </div>
+
+          <p class="form__policy">
+            Нажимая на кнопку «Отправить», вы ознакомлены<br />
+            и соглашаетесь с
+            <a class="form__policy_link" href="#" target="_blank"
+              >политикой обработки персональных данных</a
+            >
+          </p>
+
+          <button type="submit" class="form__submit">ОТПРАВИТЬ</button>
         </div>
       </div>
-
-      <div class="form__group form__group--phone">
-        <div class="form__block">
-          <input type="tel" id="phone" name="phone" required placeholder=" " autocomplete="off"/>
-
-          <label for="phone">Телефон</label>
-        </div>
-      </div>
-
-      <div class="form__group">
-        <div class="form__block">
-          <input type="email" id="email" name="email" required placeholder=" " autocomplete="off"/>
-
-          <label for="email">E-mail</label>
-        </div>
-      </div>
-
-
-      <p class="form__policy">
-        Нажимая на кнопку «Отправить», вы ознакомлены<br/>
-        и соглашаетесь с <a class="form__policy_link" href="#" target="_blank">политикой обработки персональных
-        данных</a>
-      </p>
-
-      <button type="submit" class="form__submit">ОТПРАВИТЬ</button>
     </div>
-  </div>
-</div>
 
-<!--<script src="https://unpkg.com/smooth-scrollbar@8.8.1/dist/smooth-scrollbar.js"></script>-->
-<script src="https://unpkg.com/imask@6.6.3/dist/imask.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/form.js"></script>
-<script src="js/scroll.js"></script>
-</body>
-
+    <!--<script src="https://unpkg.com/smooth-scrollbar@8.8.1/dist/smooth-scrollbar.js"></script>-->
+    <script src="https://unpkg.com/imask@6.6.3/dist/imask.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/scroll.js"></script>
+  </body>
 </html>
